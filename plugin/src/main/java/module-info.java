@@ -3,6 +3,7 @@
  * @since 24/01/2023
  */
 module consulo.java.jackson {
-    requires consulo.ide.api;
+    requires consulo.language.api;
+    requires consulo.language.editor.api;
     requires consulo.java.language.api;
 }
